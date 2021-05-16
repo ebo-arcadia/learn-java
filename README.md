@@ -12,5 +12,5 @@
 * [X] java variables
 * [X] class and object in java OOPs
 * [X] java arrays
-[] array of objects
-[] arraylist in java
+* [] array of objects
+* [] arraylist in java
