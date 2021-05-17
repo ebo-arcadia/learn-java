@@ -30,15 +30,9 @@ class string_methods_charAt {
 
         // returns the character value at index 0
         System.out.println("Charater at 0 position: " + str1.charAt(0));
-        // return the character value at index 10
-        System.out.println("Charater at 0 position: " + str1.charAt(10));
-        // induce error due to index out of range 
-        char result = str1.charAt(-1);
-        System.out.println("Charater at 0 position: " + result);
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 }
 
-// charAt method always take an argument always int type
-//  int value specifies index starts at 0
-// error if index value is higher than string length
-// index range must beween 0 and string length - 1

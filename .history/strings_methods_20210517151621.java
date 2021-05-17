@@ -27,18 +27,6 @@ class string_methods_charAt {
     public static void main(String[] args) {
         String str1 = "This is a string used for charAt method";
         System.out.println("This is the sample str1: " + str1);
-
-        // returns the character value at index 0
-        System.out.println("Charater at 0 position: " + str1.charAt(0));
-        // return the character value at index 10
-        System.out.println("Charater at 0 position: " + str1.charAt(10));
-        // induce error due to index out of range 
-        char result = str1.charAt(-1);
-        System.out.println("Charater at 0 position: " + result);
     }
 }
 
-// charAt method always take an argument always int type
-//  int value specifies index starts at 0
-// error if index value is higher than string length
-// index range must beween 0 and string length - 1

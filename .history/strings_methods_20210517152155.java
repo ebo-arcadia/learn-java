@@ -38,7 +38,3 @@ class string_methods_charAt {
     }
 }
 
-// charAt method always take an argument always int type
-//  int value specifies index starts at 0
-// error if index value is higher than string length
-// index range must beween 0 and string length - 1
