@@ -1,14 +1,5 @@
-// strings: array of character
-// why strings? process human language
-// string class extends object class
 
-// representation of array of characters
-char[] stringSample = {'s', 'o', 's'};
-String str0 = new String(stringSample);
-
-// example string concatenation program
-
-public class sample_string {
+public class Sample_String{
     public static void main(String[] arges){
         // string concatenation
 

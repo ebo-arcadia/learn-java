@@ -8,7 +8,7 @@ String str0 = new String(stringSample);
 
 // example string concatenation program
 
-public class sample_string {
+public class Sample_String{
     public static void main(String[] arges){
         // string concatenation
 
