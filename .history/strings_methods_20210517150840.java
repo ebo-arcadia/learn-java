@@ -23,7 +23,3 @@ public class strings_methods {
     }   
 }
 
-class string_methods_charAt {
-
-}
-

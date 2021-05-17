@@ -2,9 +2,9 @@
 // why strings? process human language
 // string class extends object class
 
-// // representation of array of characters
-// char[] stringSample = {'s', 'o', 's'};
-// String str0 = new String(stringSample);
+// representation of array of characters
+char[] stringSample = {'s', 'o', 's'};
+String str0 = new String(stringSample);
 
 // example string concatenation program
 

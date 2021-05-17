@@ -1,4 +1,4 @@
-public class strings_methods {
+public class strings_methods_indexOf {
     public static void main(String[] args) {
         // declare the string as an object
         String str1 = "Java is like Ruby with different set of syntax to me";
@@ -22,8 +22,3 @@ public class strings_methods {
         // using charAt
     }   
 }
-
-class string_methods_charAt {
-
-}
-

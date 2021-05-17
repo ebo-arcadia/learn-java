@@ -22,8 +22,3 @@ public class strings_methods {
         // using charAt
     }   
 }
-
-class string_methods_charAt {
-
-}
-
