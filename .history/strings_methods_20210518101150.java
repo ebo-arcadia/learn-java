@@ -37,47 +37,16 @@ class string_methods_charAt {
         System.out.println("Charater at 0 position: " + result);
     }
 }
-// charAt method always take an argument always int type
-//  int value specifies index starts at 0
-// error if index value is higher than string length
-// index range must beween 0 and string length - 1
 
 class string_method_compareTo {
     public static void main(String[] args) {
         String str_1 = "ruby";
-        String str_2 = "python";
-        String str_3 = "swift";
+        // String str_2 = "python";
         // param passed to the compareTo method is lexicographically first
-        System.out.println("Compare to str_1 'ruby', python is: " + str_1.compareTo("python"));
-        // string calling the method is lexicographically first
-        System.out.println("Compare to str_2 'python, ruby is: " + str_2.compareTo("ruby"));
-        // two strings are lexicographically equivalent
-        System.out.println("Compare to str_3 'swift', swift is: " + str_3.compareTo("swift"));
-        // compare to - ignore case
-        String Str_4 = "angular";
-        String Str_5 = "ANGULAR";
-        System.out.println("Compare str_4 'angular' to str_5 'ANGULAR' - case ignored, str_4 is: " + Str_4.compareToIgnoreCase("ANGULAR"));
-        // compare to - not ignore case
-        System.out.println("Compare str_5 'ANGULAR' to str_4 'angular', str_5 is: " + Str_5.compareTo("angular"));
+        System.out.println("Compare to str_2, str_1 is: " + str_1.compareTo("python"));
     }
 }
-
-// when to use the compareTo method? perform natural sorting on string
-
-class compare_strings_conditional {
-    public static void main(String[] args) {
-        
-    String string_us = "us";
-    String string_uk = "uk";
-    System.out.println("String_us is: " + string_us);
-    System.out.println("String_uk is: " + string_uk);
-
-    // compare the two strings
-    int compareUSAndUK = string_us.compareTo(string_uk);
-
-    // show comparing result
-    if (compareUSAndUK < 0) {System.out.println(string_us + " is lexicographically higher than " + string_uk);}
-    else if (compareUSAndUK == 0) {System.out.println(string_us + " is lexicographically equal to " + string_uk);}
-    else if (compareUSAndUK > 0) {System.out.println(string_us + " is lexicographically less than " + string_uk);}
-    }   
-}
+// charAt method always take an argument always int type
+//  int value specifies index starts at 0
+// error if index value is higher than string length
+// index range must beween 0 and string length - 1

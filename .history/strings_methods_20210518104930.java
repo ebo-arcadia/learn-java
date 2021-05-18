@@ -67,8 +67,8 @@ class string_method_compareTo {
 class compare_strings_conditional {
     public static void main(String[] args) {
         
-    String string_us = "us";
-    String string_uk = "uk";
+    String string_us = "uk";
+    String string_uk = "us";
     System.out.println("String_us is: " + string_us);
     System.out.println("String_uk is: " + string_uk);
 

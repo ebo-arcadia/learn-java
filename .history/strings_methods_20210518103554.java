@@ -63,21 +63,3 @@ class string_method_compareTo {
 }
 
 // when to use the compareTo method? perform natural sorting on string
-
-class compare_strings_conditional {
-    public static void main(String[] args) {
-        
-    String string_us = "us";
-    String string_uk = "uk";
-    System.out.println("String_us is: " + string_us);
-    System.out.println("String_uk is: " + string_uk);
-
-    // compare the two strings
-    int compareUSAndUK = string_us.compareTo(string_uk);
-
-    // show comparing result
-    if (compareUSAndUK < 0) {System.out.println(string_us + " is lexicographically higher than " + string_uk);}
-    else if (compareUSAndUK == 0) {System.out.println(string_us + " is lexicographically equal to " + string_uk);}
-    else if (compareUSAndUK > 0) {System.out.println(string_us + " is lexicographically less than " + string_uk);}
-    }   
-}

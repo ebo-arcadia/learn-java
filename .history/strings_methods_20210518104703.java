@@ -76,8 +76,8 @@ class compare_strings_conditional {
     int compareUSAndUK = string_us.compareTo(string_uk);
 
     // show comparing result
-    if (compareUSAndUK < 0) {System.out.println(string_us + " is lexicographically higher than " + string_uk);}
-    else if (compareUSAndUK == 0) {System.out.println(string_us + " is lexicographically equal to " + string_uk);}
-    else if (compareUSAndUK > 0) {System.out.println(string_us + " is lexicographically less than " + string_uk);}
-    }   
+    if (compareUSAndUK < 0) {System.out.println(string_us + "is lexicographically higher than" + string_uk);}
+    else if (compareUSAndUK == 0) {System.out.println(string_us + "is lexicographically equal to" + string_uk);}
+    else if (compareUSAndUK > 0) {System.out.println(string_us + "is lexicographically less than" + string_uk);}
+}
 }
