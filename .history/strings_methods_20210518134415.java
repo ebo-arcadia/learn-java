@@ -98,8 +98,5 @@ class contains_method {
         // using conditional statement to check specific substring in a given string
         if (sample_str.contains("Characters")) { System.out.println("The word 'Characters' is found in sample str");}
         else { System.out.println("The word 'Characters' is NOT found in sample str");}
-
-        if (sample_str.contains("With")) { System.out.println("The word 'With' is found in sample str");}
-        else { System.out.println("The word 'With' is NOT found in sample str");}
     }
 }

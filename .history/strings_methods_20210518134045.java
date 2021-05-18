@@ -94,12 +94,5 @@ class contains_method {
         // contains method is case sensitive
         System.out.println("Does sample_str contains 'bunch'? " + sample_str.contains("bunch"));
         System.out.println("Does sample_str contains 'Bunch'? " + sample_str.contains("Bunch"));
-
-        // using conditional statement to check specific substring in a given string
-        if (sample_str.contains("Characters")) { System.out.println("The word 'Characters' is found in sample str");}
-        else { System.out.println("The word 'Characters' is NOT found in sample str");}
-
-        if (sample_str.contains("With")) { System.out.println("The word 'With' is found in sample str");}
-        else { System.out.println("The word 'With' is NOT found in sample str");}
     }
 }
