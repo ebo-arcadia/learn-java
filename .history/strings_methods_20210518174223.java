@@ -110,10 +110,5 @@ class endsWith_method {
     public static void main(String[] args) {
         String sample_string = "This string ends with jave tools";
         System.out.println("sample_string is: " + sample_string);
-
-        // check if ends with a particular sequence of characters
-        System.out.println("sample string ends with 's'? " + sample_string.endsWith("s"));
-        System.out.println("sample string ends with 'tools'? " + sample_string.endsWith("tools"));
-        System.out.println("sample string ends with 'dev'? " + sample_string.endsWith("dev"));
     }
 }
