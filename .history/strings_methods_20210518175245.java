@@ -127,23 +127,3 @@ class replace_method {
         System.out.println("the correct sentence is: " + strX.replace("the", "a"));
     }
 }
-
-// replaceAll method -> return a new string after finding and replacing matching regx
-class replace_all_method {
-    public static void main(String[] args) {
-        String stringZ = new String("p h i l o s o p h y");
-        System.out.println("weird string: " + stringZ);
-        // replace all space with no space
-        System.out.println("fixed word is now: " + stringZ.replaceAll("\\s", ""));
-    }
-}
-
-// replaceFirst method -> return a new string replacing only the frist substring matches a given regular expression
-class replace_first_method {
-    public static void main(String[] args) {
-        String strDeta = new String("The user name is Neo");
-        System.out.print("registered string is: " + strDeta);
-        // replace Neo with new input
-        System.out.print("Registered string content is: " + strDeta.replaceFirst("Neo", ": (enter your name here)"));
-    }
-}

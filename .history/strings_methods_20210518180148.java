@@ -137,13 +137,3 @@ class replace_all_method {
         System.out.println("fixed word is now: " + stringZ.replaceAll("\\s", ""));
     }
 }
-
-// replaceFirst method -> return a new string replacing only the frist substring matches a given regular expression
-class replace_first_method {
-    public static void main(String[] args) {
-        String strDeta = new String("The user name is Neo");
-        System.out.print("registered string is: " + strDeta);
-        // replace Neo with new input
-        System.out.print("Registered string content is: " + strDeta.replaceFirst("Neo", ": (enter your name here)"));
-    }
-}

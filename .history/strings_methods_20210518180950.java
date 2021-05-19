@@ -143,7 +143,6 @@ class replace_first_method {
     public static void main(String[] args) {
         String strDeta = new String("The user name is Neo");
         System.out.print("registered string is: " + strDeta);
-        // replace Neo with new input
         System.out.print("Registered string content is: " + strDeta.replaceFirst("Neo", ": (enter your name here)"));
     }
 }
