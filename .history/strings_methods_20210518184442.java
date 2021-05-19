@@ -163,35 +163,13 @@ class toLowerOrUpperCase_method {
 
 // convert strings to integer to perform numeric operation
 
-class numericOpsWithParseInt{
+
+class numericOps{
     public static void main(String []args){
         String strNum = "1000";
         int convertedStringToNum = Integer.parseInt(strNum);
-        System.out.println("current String:"+ strNum);
+        System.out.println("Actual String:"+ strNum);
         System.out.println("Converted to Int:" + strNum);
-        // perform numeric operation on string
         System.out.println("Arithmetic Operation on Int: " + (convertedStringToNum/4));
-        // convert string to integer then perform numeric operation
-    }
-  }
-  class numericOpsWithValueOf{
-    public static void main(String []args){
-      String strNum2 = "333";
-      //Convert the String to Integer using Integer.valueOf
-      int convertedStringToNum2 = Integer.valueOf(strNum2);
-      System.out.println("Actual String:"+ strNum2);
-      System.out.println("Converted to Int:" + convertedStringToNum2);
-      //This will now show some arithmetic operation
-      System.out.println("Arithmetic Operation on Int:" + (convertedStringToNum2/3));
-    }
-  }
-
-  // error message returned if attempt to parse invalid number string
-  class convertStrToNum{
-    public static void main(String []args){
-      String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
     }
   }

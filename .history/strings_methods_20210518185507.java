@@ -186,12 +186,11 @@ class numericOpsWithParseInt{
     }
   }
 
-  // error message returned if attempt to parse invalid number string
-  class convertStrToNum{
+  public class StrConvert{
     public static void main(String []args){
-      String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
+      String strTest = "Guru99";
+      int iTest = Integer.valueOf(strTest);
+      System.out.println("Actual String:"+ strTest);
+      System.out.println("Converted to Int:" + iTest);
     }
   }

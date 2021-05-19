@@ -190,8 +190,8 @@ class numericOpsWithParseInt{
   class convertStrToNum{
     public static void main(String []args){
       String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
+      int iTest = Integer.valueOf(strToNum);
+      System.out.println("Actual String:"+ strToNum);
+      System.out.println("Converted to Int:" + strToNum);
     }
   }

@@ -174,24 +174,26 @@ class numericOpsWithParseInt{
         // convert string to integer then perform numeric operation
     }
   }
+
   class numericOpsWithValueOf{
     public static void main(String []args){
-      String strNum2 = "333";
-      //Convert the String to Integer using Integer.valueOf
-      int convertedStringToNum2 = Integer.valueOf(strNum2);
-      System.out.println("Actual String:"+ strNum2);
-      System.out.println("Converted to Int:" + convertedStringToNum2);
-      //This will now show some arithmetic operation
-      System.out.println("Arithmetic Operation on Int:" + (convertedStringToNum2/3));
+        String strNum2 = "346";
+        int convertedStringToNum2 = Integer.valueOf(strNum2);
+        System.out.println("current String:"+ strNum2);
+        System.out.println("Converted to Int:" + strNum2);
+        // perform numeric operation on string
+        System.out.println("Arithmetic Operation on Int: " + (strNum2*300));
     }
   }
 
-  // error message returned if attempt to parse invalid number string
-  class convertStrToNum{
+  class StrConvert{
     public static void main(String []args){
-      String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
+      String strTest = "100";
+      //Convert the String to Integer using Integer.valueOf
+      int iTest = Integer.valueOf(strTest);
+      System.out.println("Actual String:"+ strTest);
+      System.out.println("Converted to Int:" + iTest);
+      //This will now show some arithmetic operation
+      System.out.println("Arithmetic Operation on Int:" + (iTest/4));
     }
   }

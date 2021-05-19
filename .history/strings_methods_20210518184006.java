@@ -162,36 +162,25 @@ class toLowerOrUpperCase_method {
 }
 
 // convert strings to integer to perform numeric operation
-
-class numericOpsWithParseInt{
-    public static void main(String []args){
+class numericOps {
+    public static void main(String []args) {
         String strNum = "1000";
-        int convertedStringToNum = Integer.parseInt(strNum);
-        System.out.println("current String:"+ strNum);
-        System.out.println("Converted to Int:" + strNum);
+        System.out.println("Current string number is: " + strNum);
         // perform numeric operation on string
-        System.out.println("Arithmetic Operation on Int: " + (convertedStringToNum/4));
-        // convert string to integer then perform numeric operation
+        System.out.println("Perform numeric operation: " + (strNum/25));
+        // convert string to integer than perform numeric operation
+        int convertedStringToNum = Integer.parseInt(strNum);
+        System.out.println("Perform numeric operation after conversion: " + (strNum*25));
     }
-  }
-  class numericOpsWithValueOf{
-    public static void main(String []args){
-      String strNum2 = "333";
-      //Convert the String to Integer using Integer.valueOf
-      int convertedStringToNum2 = Integer.valueOf(strNum2);
-      System.out.println("Actual String:"+ strNum2);
-      System.out.println("Converted to Int:" + convertedStringToNum2);
-      //This will now show some arithmetic operation
-      System.out.println("Arithmetic Operation on Int:" + (convertedStringToNum2/3));
-    }
-  }
+}
 
-  // error message returned if attempt to parse invalid number string
-  class convertStrToNum{
+class StrConvert{
     public static void main(String []args){
-      String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
+      String strTest = "100";
+      int iTest = Integer.parseInt(strTest);
+      System.out.println("Actual String:"+ strTest);
+      System.out.println("Converted to Int:" + iTest);
+      //This will now show some arithmetic operation
+      System.out.println("Arithmetic Operation on Int: " + (iTest/4));
     }
   }

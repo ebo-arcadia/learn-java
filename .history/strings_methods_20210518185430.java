@@ -185,13 +185,3 @@ class numericOpsWithParseInt{
       System.out.println("Arithmetic Operation on Int:" + (convertedStringToNum2/3));
     }
   }
-
-  // error message returned if attempt to parse invalid number string
-  class convertStrToNum{
-    public static void main(String []args){
-      String strToNum = "crazyLeg1099";
-      int convertedStr = Integer.valueOf(strToNum);
-      System.out.println("Current String:"+ strToNum);
-      System.out.println("Converted to Int:" + convertedStr);
-    }
-  }
