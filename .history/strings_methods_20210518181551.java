@@ -150,13 +150,9 @@ class replace_first_method {
 
 // to lower case method converts every character of a string into lower case
 // using rule of default locale
-class toLowerOrUpperCase_method {
+class toLowerCase_method {
     public static void main(String[] args) {
         String allCapStr = new String("ALL CAP LETTERS IN THIS STRING MUST BE LOWER CASE!");
         System.out.print("current string is: " + allCapStr);
         System.out.print("converted string is: " + allCapStr.toLowerCase());
-        String allLowerStr = new String("all lower case letters in this string must be capitalized pls!");
-        System.out.print("current string is: " + allLowerStr);
-        System.out.print("converted string is: " + allCapStr.toUpperCase());
-    }
 }
