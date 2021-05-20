@@ -1,0 +1,46 @@
+// memory management
+// not referenced & unused objects get automatically deleted
+// de-allocation of memory
+// prevent system crash from memory leaks
+// free() method
+// all objects are created in Heap secion of memory
+
+// example program for garbage collector mechanism in java
+
+class TrashObject{
+    int x;
+    int y;
+
+    public void setData(int a, int b){
+        x=a;
+        y=b;
+    }
+
+    public void showData(){
+        System.out.println("Value of x = " + x);
+        System.out.println("Value of y = " + y);
+    }
+
+    public static void main(String[] args) {
+        TrashObject t1 = new TrashObject();
+        TrashObject t2 = new TrashObject();
+
+        t1.setData(2, 3);
+        t2.setData(6, 7);
+        t1.showData();
+        t2.showData();
+
+        TrashObject t3;
+        t3=t2;
+        t3.showData();
+        t2=null;
+        t3.showData();
+        // at this point,the obj is not eligible for garbage collection because t3 is still pointing to it
+        t3=null;
+        t3.showData();
+        // at this point, because t2 & t3 are null not pointing to the obj, obj becomes eligible for garbage collection
+    }
+}
+
+// assign reference variable to null for the obj to be eligible for garbage collection
+// primitive types are not objects and can't be assigned with null. e.g xxx int var1 = null xxx
