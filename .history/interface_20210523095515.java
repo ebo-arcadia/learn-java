@@ -49,19 +49,3 @@ class Dog implements Pet {
         pet1.test();
     }
 }
-
-// abstract class
-abstract class Human {
-    int age = 100;
-    abstract public void getJob();
-}
-
-class Christian extends Human{
-    public static void main(String[] args) {
-        Christian james1 = new Christian();
-        james1.age = 333;
-    }
-    public void getJob() {
-        System.out.println("James's age is " + (james1.age * james1.age));
-    }
-}

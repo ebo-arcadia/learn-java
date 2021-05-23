@@ -51,12 +51,12 @@ class Dog implements Pet {
 }
 
 // abstract class
-abstract class Human {
+abstract class Person {
     int age = 100;
     abstract public void getJob();
 }
 
-class Christian extends Human{
+class Christian extends Person {
     public static void main(String[] args) {
         Christian james1 = new Christian();
         james1.age = 333;
