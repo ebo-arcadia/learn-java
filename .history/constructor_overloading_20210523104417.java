@@ -91,7 +91,7 @@ class Demo{
     int value3;
     int value4;
     DemoChild(){
-    super(5);
+    //super(5);
      value3 = 3;
      value4 = 4;
     System.out.println("Inside the Constructor of Child");
