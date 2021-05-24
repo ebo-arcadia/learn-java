@@ -86,7 +86,6 @@ class JavaExceptionWithFinally {
     public static void main(String[] args) {
         try {
             int x = 0;
-            // int x = 1; run this and observe the output
             int y = 9;
             int fraction = y / x;
         }

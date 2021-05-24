@@ -86,7 +86,6 @@ class JavaExceptionWithFinally {
     public static void main(String[] args) {
         try {
             int x = 0;
-            // int x = 1; run this and observe the output
             int y = 9;
             int fraction = y / x;
         }
@@ -94,7 +93,7 @@ class JavaExceptionWithFinally {
             System.out.println("In this catch block due to exception = " + e);
         }
         finally {
-            System.out.println(" now inside the finally block...");
+            System.out.println(" now inside the finally block");
         }
     }
 }
