@@ -1,0 +1,6 @@
+// event interrupts program flow
+// object wraps error even info 
+// error occurs in method
+// error is sent to run time system
+// used to indicate types of errors
+
