@@ -37,4 +37,5 @@
 * [X] throw & throws
 * [X] iteration & forEach
 * [X] switch case statement
-* [] math methods
+* [X] math methods
+* [] generate random number
