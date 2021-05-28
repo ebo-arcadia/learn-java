@@ -40,4 +40,5 @@
 * [X] math methods
 * [X] generate random number
 * [X] generate random number
-* [] Date & Time
+* [X] Date & Time
+* [] Multithreading
