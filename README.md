@@ -38,4 +38,6 @@
 * [X] iteration & forEach
 * [X] switch case statement
 * [X] math methods
-* [] generate random number
+* [X] generate random number
+* [X] generate random number
+* [] Date & Time
