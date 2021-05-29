@@ -41,7 +41,8 @@
 * [X] generate random number
 * [X] generate random number
 * [X] Date & Time
-* [] Multithreading
+* [X] Multithreading
+* [] Create GUI in Java
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
