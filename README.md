@@ -51,7 +51,7 @@
 * [X] Language Basics (variables, operators, expressions, statements, blocks, control flow statemtns)
 
 * [X] Classes and Objects (class, object, nested class, enum types)
-- [] nested classes (I do not know) 
+- [X] nested classes (I do not know) 
 - [] enum types (not familiar with)
 
 * [] Annotations (I do not know)
