@@ -6,33 +6,33 @@ package oracle_java_tutorials;
 // increase encapsulation
 // readable and easier to maintain
 
-class OuterClass {
-    // ...
-    class NestedClass {
-        // ...
-    }
-    static class StaticNestedClass {
-        // ...
-    }
-}
+// class OuterClass {
+//     // ...
+//     class NestedClass {
+//         // ...
+//     }
+//     static class StaticNestedClass {
+//         // ...
+//     }
+// }
 
 // inner classes
 // instantiate inner class
 
-class OuterClass {
-    class InnerClass {
+// class OuterClass {
+//     class InnerClass {
 
-    }
-}
+//     }
+// }
 
-OuterClass outerObject = new OuterClass();
-OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+// OuterClass outerObject = new OuterClass();
+// OuterClass.InnerClass innerObject = outerObject.new InnerClass();
 
 // static nested classes
 // associate with outer class
 // a top level class nested in another top level classes
 // instantiate static nested class same way as top-level class
 
-StaticNestedClass staticNestedObject = new StaticNestedClass();
+// StaticNestedClass staticNestedObject = new StaticNestedClass();
 
 
