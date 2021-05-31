@@ -40,9 +40,10 @@
 * [X] math methods
 * [X] generate random number
 * [X] generate random number
-* [X] Date & Time
-* [X] Multithreading
-* [] Swing (Create GUI in Java)
+* [X] date & Time
+* [X] multithreading
+* [X] swing (Create GUI in Java)
+* [X] split string method
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
