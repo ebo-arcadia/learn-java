@@ -1,0 +1,3 @@
+this is a text editor for the buffered reader java file
+it supposed to read reach line in this file
+and then execute code in main to display each line 
