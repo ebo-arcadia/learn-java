@@ -44,6 +44,8 @@
 * [X] multithreading
 * [X] swing (Create GUI in Java)
 * [X] split string method
+* [X] buffered reader
+* [] reflection API
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
