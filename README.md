@@ -42,7 +42,7 @@
 * [X] generate random number
 * [X] Date & Time
 * [X] Multithreading
-* [] Create GUI in Java
+* [] Swing (Create GUI in Java)
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
@@ -52,7 +52,7 @@
 
 * [X] Classes and Objects (class, object, nested class, enum types)
 - [X] nested classes (I do not know) 
-- [] enum types (not familiar with)
+- [X] enum types (not familiar with) (need to study more)
 
 * [] Annotations (I do not know)
 
