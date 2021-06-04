@@ -46,6 +46,8 @@
 * [X] split string method
 * [X] buffered reader
 * [] reflection API
+* [X] groovy
+* [] spring
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
