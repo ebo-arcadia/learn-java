@@ -47,7 +47,8 @@
 * [X] buffered reader
 * [] reflection API
 * [X] groovy
-* [] spring
+* [X] spring
+* [] apache ant build tool
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
