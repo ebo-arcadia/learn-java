@@ -49,7 +49,8 @@
 * [X] groovy
 * [X] spring
 * [X] apache ant build tool
-* [] jasper reports
+* [X] jasper reports
+* [X] check prime number
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
