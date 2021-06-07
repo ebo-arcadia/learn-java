@@ -7,6 +7,7 @@
 * It has a good collection of open-source libraries.
 
 ## progress tractor
+### java basics
 * [X] install java and run program
 * [X] read basics concepts (OOPs) in java
 * [X] java variables
@@ -50,7 +51,10 @@
 * [X] spring
 * [X] apache ant build tool
 * [X] jasper reports
+### java programs
 * [X] check prime number
+* [] JSON_XML_Convertor
+
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
