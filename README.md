@@ -45,10 +45,11 @@
 * [X] swing (Create GUI in Java)
 * [X] split string method
 * [X] buffered reader
-* [] reflection API
+* [X] reflection API
 * [X] groovy
 * [X] spring
-* [] apache ant build tool
+* [X] apache ant build tool
+* [] jasper reports
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
