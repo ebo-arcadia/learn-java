@@ -53,7 +53,8 @@
 * [X] jasper reports
 ### java programs
 * [X] check prime number
-* [] JSON_XML_Convertor
+* [X] JSON_XML_Convertor
+* [] Print_Primr_Number
 
 
 ## Oracle java tutorial
