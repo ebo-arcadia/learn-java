@@ -56,6 +56,8 @@
 * [X] JSON_XML_Convertor
 * [X] Print_Primr_Number
 * [X] String_character_Convertor
+* [X] Fibonacci Series
+* [] armstring number
 
 
 ## Oracle java tutorial
