@@ -67,7 +67,7 @@
 - [X] nested classes (I do not know) 
 - [X] enum types (not familiar with) (need to study more)
 
-* [] Annotations (I do not know)
+* [X] Annotations (I do not know)
 
 * [] Interfaces and inheritance (needs to understand more in detail for java)
 
