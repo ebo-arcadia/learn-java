@@ -54,7 +54,8 @@
 ### java programs
 * [X] check prime number
 * [X] JSON_XML_Convertor
-* [] Print_Primr_Number
+* [X] Print_Primr_Number
+* [X] String_character_Convertor
 
 
 ## Oracle java tutorial
