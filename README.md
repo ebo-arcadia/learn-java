@@ -73,6 +73,8 @@
 * [X] Annotations (I do not know)
 
 * [] Interfaces and inheritance (needs to understand more in detail for java)
+- [] defining an interface
+- [] implementing an interface
 
 * [X] Numbers and Strings
 
