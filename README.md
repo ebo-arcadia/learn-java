@@ -75,8 +75,9 @@
 * [X] Annotations (I do not know)
 
 * [] Interfaces and inheritance (needs to understand more in detail for java)
-- [] defining an interface
-- [] implementing an interface
+- [X] defining an interface
+- [X] implementing an interface
+- [] using an interface as a type
 
 * [X] Numbers and Strings
 
