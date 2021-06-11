@@ -57,7 +57,9 @@
 * [X] Print_Primr_Number
 * [X] String_character_Convertor
 * [X] Fibonacci Series
-* [] armstring number
+* [X] armstring number
+* [X] reverse string
+* [] palindrome program
 
 
 ## Oracle java tutorial
