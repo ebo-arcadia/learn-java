@@ -59,7 +59,8 @@
 * [X] Fibonacci Series
 * [X] armstring number
 * [X] reverse string
-* [] palindrome program
+* [X] palindrome program
+* [] bubble sort
 
 
 ## Oracle java tutorial
