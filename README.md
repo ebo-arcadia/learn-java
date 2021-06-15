@@ -60,8 +60,8 @@
 * [X] armstring number
 * [X] reverse string
 * [X] palindrome program
-* [] bubble sort
-
+* [X] bubble sort
+* [] insertion sort
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
