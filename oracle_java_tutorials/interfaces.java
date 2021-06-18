@@ -111,6 +111,9 @@ public class RectanglePlus
 }
 
 // using a interface as a type
+// new interface -> new reference data type
+// object assign to an interface must be instance of a class implements that interface
+
 public Object findLargest(Object object1, Object object2) {
     Relatable obj1 = (Relatable)object1;
     Relatable obj2 = (Relatable)object2;

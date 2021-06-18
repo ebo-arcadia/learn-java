@@ -61,7 +61,8 @@
 * [X] reverse string
 * [X] palindrome program
 * [X] bubble sort
-* [] insertion sort
+* [X] insertion sort
+* [] selection sorting
 
 ## Oracle java tutorial
 ### strengthen the understanding of the basics
@@ -78,7 +79,8 @@
 * [] Interfaces and inheritance (needs to understand more in detail for java)
 - [X] defining an interface
 - [X] implementing an interface
-- [] using an interface as a type
+- [X] using an interface as a type
+- [] evolving interfaces
 
 * [X] Numbers and Strings
 
