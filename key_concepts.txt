@@ -1,0 +1,12 @@
+what is JDK? - java development kit - dev envrionment to make apps
+what is JRE? - java runtime environment - software to run other software. JDK comes with it
+what is JVM - jave virtual machine - convert bytecode into machine language, compiler, provides runtime env for java code
+
+JDK is a software development kit whereas JRE is a software bundle that allows Java program to run, whereas JVM is an environment for executing bytecode.
+The full form of JDK is Java Development Kit, while the full form of JRE is Java Runtime Environment, while the full form of JVM is Java Virtual Machine.
+JDK is platform dependent, JRE is also platform dependent, but JVM is platform independent.
+JDK contains tools for developing, debugging, etc. JRE contains class libraries and other supporting files, whereas software development tools are not included in JVM.
+JDK comes with the installer, on the other hand, JRE only contains the environment to execute source code whereas JVM bundled in both software JDK and JRE.
+
+Why use JDK?
+
