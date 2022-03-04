@@ -1,0 +1,2 @@
+This is the content from the copy from input file
+It is used to be copied and pasted to the another file using java IO program File class
