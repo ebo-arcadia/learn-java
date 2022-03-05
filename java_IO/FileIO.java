@@ -33,12 +33,41 @@ public class FileIO {
         }
     }
 
+    // java character stream code example (using FileReader & FileWriter to read & write 16-bit unicode)
+    // FileReader & FileWriter classes use FileInputScream & FileOutputStream classes but read & write 2 bytes at the same time
+    public static void CopyFileCharStream() throws IOException {
+        FileReader inFile = null;
+        FileWriter outFile = null;
+
+        try {
+            inFile = new FileReader("inFileCharStream.txt");
+            outFile = new FileWriter("outFileCharStream.txt");
+
+            int contentToCopy;
+            while ((contentToCopy = inFile.read()) != -1) {
+                outFile.write(contentToCopy);
+//                timeout(3000);
+            }
+        } finally {
+            if (inFile != null) {
+                inFile.close();
+            }
+            if (outFile != null) {
+                outFile.close();
+            }
+        }
+    }
+
     public static void main(String args[]) throws IOException {
         try {
             CopyFileByteStream();
+            CopyFileCharStream();
         }
         catch (IOException error){
             System.out.print(error);
         }
+
+        // how to compare runtime of two operations?
+        // difference between double/single quote?
     }
 }

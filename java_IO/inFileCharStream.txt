@@ -1,0 +1,1 @@
+this content is in the in File Char Stream txt file and will be copied and pasted to another file called out File Char Stream upon creation by the class
