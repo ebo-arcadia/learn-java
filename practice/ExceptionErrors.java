@@ -14,33 +14,32 @@ public class ExceptionErrors {
         FileReader fileObj = new FileReader(file);
     }
 
-    void arrayOutOfBound(int x) throws IOException {
-        int nums[] = new int[10];
-        if (nums[x] <= nums.length) {
-            System.out.println("Value of element given entered index: " + nums[x]);
+    void arrayOutOfBound(int x) {
+        // int nums[] = new int[10];
+        // java 8 >
+        // int [] nums = IntStream.range(1,10).toArray();
+        int nums[] = new int[] {1,2,3,4,5,6,7,8,9};
+
+        if (nums[x] > nums.length) {
+            throw new ArrayIndexOutOfBoundsException("array out of bound");
         }
         else {
-            throw new IOException("array out of bound");
+            System.out.println("Value of element given entered index: " + nums[x]);
         }
     }
 
     public static void main(String args[]) throws IOException {
-        System.out.print("/n----------------/n");
         ExceptionErrors ExpErrObj = new ExceptionErrors();
+        ExpErrObj.arrayOutOfBound(100);
         try {
             ExpErrObj.compileException();
-            ExpErrObj.arrayOutOfBound(11);
         }
         catch (IOException error) {
             System.out.print("There is an error:" + error + "\n");
             System.out.print("Error message is: " + error.getMessage() + "\n");
         }
-        catch (ArrayIndexOutOfBoundsException error) {
-            System.out.print("There is an error:" + error + "\n");
-            System.out.print("Error message is: " + error.getMessage() + "\n");
-        }
         finally {
-            ExpErrObj.arrayOutOfBound(2);
+            ExpErrObj.arrayOutOfBound(9);
         }
     }
 }
