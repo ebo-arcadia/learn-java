@@ -69,7 +69,7 @@ public class NestedInnerClass {
         Computer computer1 = new Computer("mac", "1000");
         Computer computer2 = new Computer("windows", "500");
 
-        // create an object of inner class Processor using outer class
+        // create an object of inner class Processor using outer class object
         Computer.Processor processor1 = computer1.new Processor();
         processor1.setManufacturer();
         System.out.println("get processor type: " + processor1.getProcessorType());
