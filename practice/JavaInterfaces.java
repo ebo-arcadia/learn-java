@@ -13,6 +13,12 @@
 interface ProgrammingLanguages {
     public void getLanguage(String name);
     void getVersion(double version);
+    private void privateMethod() {
+        System.out.print("invoking a private method in an interface");
+    }
+    public static void publicStaticMethod() {
+        System.out.print("invoking a private static method in an interface");
+    }
 }
 
 interface Softwares {
